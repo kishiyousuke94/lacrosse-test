@@ -8,7 +8,7 @@ const slides = [
     title: "スロー",
     videoUrl: "https://www.youtube.com/shorts/7VUU9bh5sws",
     videoEmbed: false,
-    thumbnail: "https://drive.google.com/uc?export=view&id=1hkisTXTfoBBVGd95DTqRfB5dKs0ue4Y0",
+    thumbnail: "/スローポジション仮.jpg",
     pointsLabel: "意識するポイント",
     sentences: [
       { id: "q1_1", parts: ["構え①：上の手は「", "」の位置で持つ"], blanks: [{ id: "b1", answer: "肘幅" }], choices: ["根元", "肩幅", "肘幅", "エンド"] },
