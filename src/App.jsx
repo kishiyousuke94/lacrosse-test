@@ -36,7 +36,7 @@ const slides = [
     thumbnail: null,
     pointsLabel: "意識するポイント",
     sentences: [
-      { id: "q2_1", parts: ["構え①：上の手は「", "」でクロスを持つ"], blanks: [{ id: "b6", answer: "肘幅" }], choices: ["根元", "肩幅", "肘幅", "エンド"] },
+      { id: "q2_1", parts: ["構え①：上の手は「", "」でクロスを持つ"], blanks: [{ id: "b6", answer: "ひじ幅" }], choices: ["根元", "肩幅", "ひじ幅", "エンド"] },
       { id: "q2_2", parts: ["構え②：「", "」構える"], blanks: [{ id: "b7", answer: "脱力して" }], choices: ["力んで", "脱力して"] },
       { id: "q2_3", parts: ["取る前：ボールに対して「", "」する"], blanks: [{ id: "b8", answer: "面の正面を向ける" }], choices: ["面の正面を向ける", "面を斜めにする", "面を下げる"] },
       { id: "q2_4", parts: ["取る瞬間①：ボールが大きくそれた場合、「", "」とる"], blanks: [{ id: "b9", answer: "上の手の位置を変えて長さを調整して" }], choices: ["上の手の位置を変えて長さを調整して", "そのままの持ち手のまま手を伸ばして"] },
