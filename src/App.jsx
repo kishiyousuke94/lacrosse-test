@@ -218,8 +218,8 @@ function CoverSlide({ onNext }) {
       <div style={{ fontFamily: "'Georgia', serif", fontSize: "clamp(1.8rem, 5vw, 3.2rem)", fontWeight: 900, letterSpacing: "-0.02em", marginBottom: 8, textShadow: "0 2px 20px rgba(0,0,0,0.3)" }}>ラクロス基礎技術テスト</div>
       <div style={{ fontSize: "1em", opacity: 0.7, marginBottom: 40, letterSpacing: "0.12em" }}>LACROSSE FUNDAMENTAL TEST</div>
       <div style={{ background: "rgba(255,255,255,0.08)", borderRadius: 16, padding: "16px 32px", marginBottom: 40, border: "1px solid rgba(255,255,255,0.15)" }}>
-        <div style={{ opacity: 0.65, fontSize: "0.88em", marginBottom: 4 }}>新入生向け / 全3問</div>
-        <div style={{ fontWeight: 700 }}>クロスの持ち方・投げ方・キャッチ</div>
+        <div style={{ opacity: 0.65, fontSize: "0.88em", marginBottom: 4 }}>新入生向け / 全20問（4種類）</div>
+        <div style={{ fontWeight: 700 }}>スロー・キャッチ・スクープ・言葉の定義</div>
       </div>
       <button onClick={onNext} style={{ background: "#0ea5e9", color: "#fff", border: "none", borderRadius: 50, padding: "16px 48px", fontSize: "1.1em", fontWeight: 800, cursor: "pointer", boxShadow: "0 4px 24px rgba(14,165,233,0.4)" }}>
         スタート →
@@ -237,7 +237,7 @@ function OverviewSlide({ onNext }) {
         <p style={{ color: "#64748b", marginBottom: 28 }}>受け方を確認してから始めよう。</p>
         <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 32 }}>
           {[
-            ["🎯", "全3問", "クロスの基本動作に関する穴埋め問題"],
+            ["🎯", "全20問", "スロー・キャッチ・スクープ・言葉の定義（各5問）"],
             ["📱", "操作方法", "空欄をタップして選択肢を選ぶ。全部埋めたら「回答を送信」"],
             ["📺", "動画あり", "各問題に動画リンクあり。事前に見てから解くのを推奨"],
             ["📊", "結果確認", "最後に得点と苦手ポイントを表示"],
